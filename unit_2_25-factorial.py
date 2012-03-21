@@ -1,0 +1,1 @@
+#Define a procedure, factorial, that#takes one number as its input#and returns the factorial of#that number.def factorial(k):    i = 1    fact = 1    while i<k:        n = k * (k - 1)        k = k-2        fact = n * fact    return factprint factorial(4)print factorial(5)
